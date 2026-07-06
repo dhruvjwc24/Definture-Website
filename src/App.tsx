@@ -1,18 +1,24 @@
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Services from './components/Services';
-import Expertise from './components/Expertise';
-import Footer from './components/Footer';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout';
+import Home from './pages/Home';
+import Services from './pages/Services';
+import About from './pages/About';
+import Approach from './pages/Approach';
+import Contact from './pages/Contact';
 
 function App() {
   return (
-    <>
-      <Header />
-      <Hero />
-      <Services />
-      <Expertise />
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="services" element={<Services />} />
+          <Route path="about" element={<About />} />
+          <Route path="approach" element={<Approach />} />
+          <Route path="contact" element={<Contact />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

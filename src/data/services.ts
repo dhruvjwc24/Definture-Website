@@ -1,13 +1,14 @@
 export interface ServiceCategory {
   title: string;
-  image: string;
+  description: string;
   items: string[];
 }
 
 export const serviceCategories: ServiceCategory[] = [
   {
     title: 'Information Security',
-    image: '/images/information-security.jpg',
+    description:
+      'Assessing exposure, hardening architecture, and proving compliance where it counts.',
     items: [
       'IT Security Consulting',
       'Security Architecture and Engineering',
@@ -18,7 +19,8 @@ export const serviceCategories: ServiceCategory[] = [
   },
   {
     title: 'Digital Transformation',
-    image: '/images/digital-transformation.jpg',
+    description:
+      'Modernizing infrastructure and platforms without disrupting the business running on them.',
     items: [
       'Cloud Advisory',
       'Cloud Architecture',
@@ -28,12 +30,14 @@ export const serviceCategories: ServiceCategory[] = [
   },
   {
     title: 'Data Analytics and AI',
-    image: '/images/data-analytics-ai.jpg',
+    description:
+      'Turning operational data into systems that inform decisions, not just dashboards.',
     items: ['Data Management', 'Data Engineering', 'AI Engineering'],
   },
   {
     title: 'Management Consulting',
-    image: '/images/management-consulting.jpg',
+    description:
+      "Program discipline and strategic clarity for initiatives that can't afford to drift.",
     items: ['Strategy Consulting', 'Program Management', 'IT Staff Augmentation'],
   },
 ];

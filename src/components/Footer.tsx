@@ -1,13 +1,19 @@
 function Footer() {
   return (
-    <footer id="contact" className="py-16 px-6 bg-white border-t border-gray-100">
-      <div className="max-w-3xl mx-auto text-center flex flex-col gap-2">
-        <h3 className="text-xl font-bold text-accent mb-2">Definture Inc.</h3>
-        <p className="text-sm text-gray-600">
-          9113 Santayana Drive, Fairfax, VA 22031.
+    <footer className="border-t border-hairline-dark bg-ink">
+      <div className="mx-auto flex max-w-6xl flex-col items-center gap-3 px-6 py-16 text-center">
+        <span className="font-serif text-lg font-semibold text-linen">Definture</span>
+        <p className="text-sm text-sand">9113 Santayana Drive, Fairfax, VA 22031</p>
+        <p className="text-sm text-sand">
+          <a href="tel:+15714412727" className="hover:text-brass">
+            571 441 2727
+          </a>
         </p>
-        <p className="text-sm text-gray-600">571 441 2727</p>
-        <p className="text-sm text-gray-600">info@definture.com</p>
+        <p className="text-sm text-sand">
+          <a href="mailto:info@definture.com" className="hover:text-brass">
+            info@definture.com
+          </a>
+        </p>
       </div>
     </footer>
   );
