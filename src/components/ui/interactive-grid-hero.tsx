@@ -109,7 +109,7 @@ function InteractiveGridHero({ eyebrow, heading, subheading, ctaLabel, ctaHref }
           to={ctaHref}
           style={{ animationDelay: '450ms' }}
           className={cn(
-            'animate-fade-up inline-flex items-center gap-2 border border-brass bg-brass px-8 py-3 text-sm font-medium text-ink transition-colors hover:bg-transparent hover:text-brass',
+            'animate-fade-up inline-flex items-center gap-2 border border-brass bg-brass px-8 py-3 text-sm font-medium text-ink transition-all duration-300 ease-[var(--ease-signature)] hover:bg-transparent hover:text-brass active:scale-[0.98]',
           )}
         >
           {ctaLabel}

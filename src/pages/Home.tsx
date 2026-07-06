@@ -31,7 +31,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="border-t border-hairline px-6 py-24">
+      <section className="border-t border-hairline bg-surface px-6 py-24">
         <div className="mx-auto flex max-w-2xl flex-col gap-6 text-center">
           <h2 className="font-serif text-2xl font-semibold text-ink sm:text-3xl">
             Why Definture
@@ -50,7 +50,7 @@ function Home() {
           </h2>
           <Link
             to="/contact"
-            className="border border-ink bg-brass px-8 py-3 text-sm font-medium text-ink transition-colors hover:bg-ink hover:text-linen"
+            className="border border-ink bg-brass px-8 py-3 text-sm font-medium text-ink transition-all duration-300 ease-[var(--ease-signature)] hover:bg-ink hover:text-linen active:scale-[0.98]"
           >
             Get in touch
           </Link>

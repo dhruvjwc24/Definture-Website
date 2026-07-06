@@ -5,12 +5,12 @@ function Footer() {
         <span className="font-serif text-lg font-semibold text-linen">Definture</span>
         <p className="text-sm text-sand">9113 Santayana Drive, Fairfax, VA 22031</p>
         <p className="text-sm text-sand">
-          <a href="tel:+15714802284" className="hover:text-brass">
+          <a href="tel:+15714802284" className="link-underline hover:text-brass">
             (571) 480-2284
           </a>
         </p>
         <p className="text-sm text-sand">
-          <a href="mailto:info@definture.com" className="hover:text-brass">
+          <a href="mailto:info@definture.com" className="link-underline hover:text-brass">
             info@definture.com
           </a>
         </p>

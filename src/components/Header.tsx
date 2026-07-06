@@ -9,7 +9,7 @@ const navLinks = [
 ];
 
 function navLinkClasses({ isActive }: { isActive: boolean }) {
-  return `relative pb-1 text-sm text-ink transition-colors hover:text-ink after:absolute after:left-0 after:-bottom-0.5 after:h-px after:bg-brass after:transition-all ${
+  return `relative pb-1 text-sm text-ink after:absolute after:left-0 after:-bottom-0.5 after:h-px after:bg-brass after:transition-all after:duration-300 after:ease-[var(--ease-signature)] ${
     isActive ? 'after:w-full' : 'after:w-0 hover:after:w-full'
   }`;
 }
